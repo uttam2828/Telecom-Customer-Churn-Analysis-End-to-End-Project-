@@ -302,7 +302,7 @@ pip install -r requirements.txt
 ## 🙌 Author
 
 **Uttam Pavan Kumar**
-Aspiring Data Analyst | Excel | SQL | Python | Power BI
+Aspiring Data Analyst | Excel | SQL | Python | Power BI | Machine Learning
 
 ---
 
