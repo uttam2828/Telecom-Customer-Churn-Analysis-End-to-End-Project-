@@ -237,18 +237,7 @@ The dashboard includes:
 
 📌 Add screenshots below:
 
-```## 📊 Project Dashboard
-
-<p align="center">
-  <img src="C:\Users\uttam\Desktop\powerbidashboard_screenshotsoverview.png" width="700"/>
-</p>
-
-## 📈 Key Insights
-
-<p align="center">
-  <img src="images/churn_by_contract.png" width="400"/>
-  <img src="images/churn_by_tenure.png" width="400"/>
-</p>
+```![Dashboard](powerbidashboard_screenshotsoverview.png)
 ```
 
 ---
