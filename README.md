@@ -237,9 +237,18 @@ The dashboard includes:
 
 📌 Add screenshots below:
 
-```md id="t71grx"
-![Overview](powerbidashboard_screenshotsoverview.png)
-![Churn](powerbi/dashboard_screenshots/churn.png)
+```## 📊 Project Dashboard
+
+<p align="center">
+  <img src="C:\Users\uttam\Desktop\powerbidashboard_screenshotsoverview.png" width="700"/>
+</p>
+
+## 📈 Key Insights
+
+<p align="center">
+  <img src="images/churn_by_contract.png" width="400"/>
+  <img src="images/churn_by_tenure.png" width="400"/>
+</p>
 ```
 
 ---
