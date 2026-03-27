@@ -238,7 +238,7 @@ The dashboard includes:
 📌 Add screenshots below:
 
 ```md id="t71grx"
-![Overview](powerbi/dashboard_screenshots/overview.png)
+![Overview](powerbidashboard_screenshotsoverview.png)
 ![Churn](powerbi/dashboard_screenshots/churn.png)
 ```
 
