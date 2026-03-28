@@ -4,6 +4,14 @@
 
 ---
 
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![SQL](https://img.shields.io/badge/SQL-Business%20Analysis-orange)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+
+---
+
+
 ## 💼 Business Impact
 
 * 📉 Reduced churn potential from **26.5% → ~20%**
@@ -45,6 +53,21 @@ Customer churn is a major revenue leak in telecom businesses.
 
 ---
 
+## 📂 Project Structure
+
+```
+telecom-customer-churn-analysis/
+│
+├── data/
+├── sql/
+├── python/
+├── powerbi/
+├── outputs/
+├── README.md
+├── requirements.txt
+```
+---
+
 ## 🛠️ Tech Stack
 
 | Tool     | Usage                  |
@@ -70,37 +93,59 @@ E --> F[Power BI Dashboard]
 
 ---
 
-## 📊 Machine Learning Model
+## 📊 Machine Learning Models
 
-* Model: Logistic Regression
-* Accuracy: **85%**
-* Precision: **~78%**
-* Recall: **~72%**
-* ROC-AUC: **~0.84**
+To predict customer churn, I built and compared multiple machine learning models:
 
-👉 **Outcome:** Identifies high-risk customers for proactive retention
+### 🔹 Models Used
+
+* Logistic Regression
+* Random Forest Classifier
 
 ---
 
-## 📂 Project Structure
+### 📈 Model Performance
 
-```
-telecom-customer-churn-analysis/
-│
-├── data/
-├── sql/
-├── python/
-├── powerbi/
-├── outputs/
-├── README.md
-├── requirements.txt
-```
+| Metric    | Logistic Regression | Random Forest |
+| --------- | ------------------- | ------------- |
+| Accuracy  | ~79–80%             | ~80%          |
+| Precision | ~0.63               | ~0.65         |
+| Recall    | ~0.54               | ~0.50         |
+| F1-Score  | ~0.58               | ~0.57         |
+| ROC-AUC   | **0.84**            | **0.82**      |
+
+---
+
+### 🧠 Model Comparison & Insights
+
+* Random Forest captures complex, non-linear relationships in the data
+* Logistic Regression provides better **generalization and interpretability**
+* Logistic Regression achieved a higher **ROC-AUC score**, making it more reliable for churn prediction
+
+👉 **Final Choice:**
+Logistic Regression was selected as the final model due to its better performance and ability to explain key churn drivers
+
+---
+
+### 🎯 Business Interpretation
+
+In churn prediction:
+
+* Missing a churn customer = potential revenue loss
+* Identifying high-risk customers early enables proactive retention strategies
+
+👉 Logistic Regression helps businesses take **data-driven actions to reduce churn and improve revenue**
+
+
 
 ---
 
 ## 📸 Dashboard Preview
 
+### 🔹 Churn Overview
 ![Overview](Dashboard.png)
+
+### 🔹 Customer Segmentation
 ![Churn](Dashboard1.png)
 
 ---
@@ -115,19 +160,43 @@ telecom-customer-churn-analysis/
 
 ---
 
-## ⚠️ Challenges & Solutions
+## ⚠️ Challenges & How I Solved Them
 
-| Challenge            | Solution                   |
-| -------------------- | -------------------------- |
-| Missing values       | Data cleaning & imputation |
-| Categorical encoding | Label & One-Hot Encoding   |
-| Business insights    | Structured EDA + SQL       |
+### 🔹 Handling Missing Values
+
+* **Challenge:** Missing and inconsistent values in `TotalCharges` affected data quality
+* **Approach:** Converted data types and applied appropriate imputation techniques
+* **Impact:** Ensured clean and reliable data for analysis and modeling
+
+---
+
+### 🔹 Encoding Categorical Variables
+
+* **Challenge:** Multiple categorical features (e.g., Contract, Payment Method) required transformation for ML models
+* **Approach:** Applied Label Encoding and One-Hot Encoding based on feature characteristics
+* **Impact:** Improved model performance and prevented misleading relationships
+
+---
+
+### 🔹 Extracting Business Insights
+
+* **Challenge:** Raw data did not directly reveal actionable insights
+* **Approach:** Combined SQL-based analysis with Python EDA to identify patterns
+* **Impact:** Translated data into meaningful business strategies
+
+---
+
+### 🔹 Model Selection & Evaluation
+
+* **Challenge:** Choosing the right model beyond just accuracy
+* **Approach:** Compared Logistic Regression and Random Forest using ROC-AUC, recall, and interpretability
+* **Impact:** Selected a model aligned with business goals (minimizing churn risk)
 
 ---
 
 ## 🚀 Future Improvements
 
-* Advanced models (XGBoost, Random Forest)
+* Advanced models (XGBoost)
 * Streamlit deployment
 * Automated pipeline
 
@@ -138,6 +207,17 @@ telecom-customer-churn-analysis/
 ```bash
 pip install -r requirements.txt
 ```
+---
+
+
+## 💼 Why This Project Stands Out
+
+✔ End-to-end pipeline (Data → Insights → Action)  
+✔ Strong focus on business impact  
+✔ Combines SQL + Python + Power BI  
+✔ Model selection based on real-world metrics  
+
+👉 This project demonstrates practical, job-ready data analysis skills
 
 ---
 
