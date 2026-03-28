@@ -237,8 +237,7 @@ The dashboard includes:
 
 ## 📊 Dashboard
 
-![Dashboard](images/dashboard.png)
-
+![Dashboard](Dashboard.png)
 
 ---
 
