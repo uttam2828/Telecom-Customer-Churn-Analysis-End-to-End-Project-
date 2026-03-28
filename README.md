@@ -232,11 +232,10 @@ The dashboard includes:
 * Revenue Impact
 * High-Risk Customer Identification
 
-## 📊 Dashboard
+## 📸 Dashboard Preview
 
-![Dashboard](Dashboard.png)
-
-![Dashboard](Dashboard1.png)
+![Overview](Dashboard.png)
+![Churn](Dashboard1.png)
 
 ---
 
