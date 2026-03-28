@@ -46,16 +46,13 @@ telecom-customer-churn-analysis/
 │   ├── cleaned/
 │
 ├── sql/
-│   ├── data_cleaning.sql
-│   ├── analysis_queries.sql
+│   ├── churn_analysis_queries.sql
 │
 ├── python/
-│   ├── data_cleaning.ipynb
-│   ├── eda.ipynb
-│   ├── churn_model.ipynb
+│   ├── churn_analysis_model.ipynb
 │
 ├── powerbi/
-│   ├── dashboard.pbix
+│   ├── customer_churn_dashboard.pbix
 │   ├── dashboard_screenshots/
 │
 ├── outputs/
