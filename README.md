@@ -239,6 +239,8 @@ The dashboard includes:
 
 ![Dashboard](Dashboard.png)
 
+![Dashboard](Dashboard1.png)
+
 ---
 
 ## 📊 Business Questions Solved (SQL)
