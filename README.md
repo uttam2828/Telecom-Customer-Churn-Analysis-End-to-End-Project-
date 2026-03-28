@@ -235,10 +235,10 @@ The dashboard includes:
 * Revenue Impact
 * High-Risk Customer Identification
 
-📌 Add screenshots below:
+## 📊 Dashboard
 
-```![Dashboard](powerbidashboard_screenshotsoverview.png)
-```
+![Dashboard](images/dashboard.png)
+
 
 ---
 
